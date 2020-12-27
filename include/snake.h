@@ -53,7 +53,7 @@ public:
     bool newHeadPos();
     Vector move();
     Vector currentPos();
-    Vector update(const Vector& position, const Vector& forward, const Vector& up, std::map<Vector, int>& blocks);
+    void update(const Vector& position, const Vector& forward, const Vector& up, std::map<Vector, int>& blocks);
     Vector rotate(char direction, float degree = 90);
     Vector turn(const char& direction, const float& rollback = 0.5, const float& nextBox = 0.0);
     void reset(float initialSpeed, Vector initialPos, Vector initialForward, Vector initialUp);

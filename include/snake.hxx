@@ -180,7 +180,7 @@ getHeadPos(){
     return this->s_HeadPos;
 }
 
-Vector Snake::
+void Snake::
 update(const Vector& position, const Vector& forward, const Vector& up, std::map<Vector, int>& blocks)
 {
     this->s_Position    = position;
