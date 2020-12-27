@@ -1,5 +1,7 @@
 # 3D Snake
 
+![](media/snake.gif)
+
 ## Installation Guide
 
 To run this game you need to have OpenGL and Glut installed, as well as a C++ compiler.
