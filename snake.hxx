@@ -201,7 +201,7 @@ increaseSize()
 {
     if(!this->s_Grow){
         this->s_Size++;
-        this->s_speed = std::min(this->s_SpeedIncrease + this->s_speed, 8.0f);
+        this->s_speed = std::min(this->s_SpeedIncrease + this->s_speed, 5.0f);
     }
     this->s_Grow = true;
 }

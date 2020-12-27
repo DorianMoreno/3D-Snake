@@ -24,7 +24,7 @@ class Game
 public:
   //! Memory management
   //@{
-  Game(  const int& gridSize = 10, const float& initialSpeed = 2.5f, const float& speedIncrease = 0.5f, const float& FOV = 110);
+  Game(  const int& gridSize = 10, const float& initialSpeed = 2.5f, const float& speedIncrease = 0.3333f, const float& FOV = 110);
   virtual ~Game( );
   //@}
 
