@@ -14,11 +14,13 @@ Then you go inside the project folder using:
 
 `$ cd 3D-Snake`
 
-### Compile the Project
+### Build the Project
 
-Once you are in the project folder, you can compile it using the following command:
+Once you are in the project folder, you can compile it using the following commands:
 
-`$ g++ -std=c++17 snake3D.cxx -lm -lGL -lGLU -lglut -o snake3D`
+`$ cmake .`
+
+`$ make`
 
 You need glut and OpenGL to run it
 
